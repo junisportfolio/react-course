@@ -1,0 +1,18 @@
+.slick img {
+    width: 600px;
+    height: 370px;
+    pointer-events: none;
+}
+.slick .slick-slide {
+    padding: 0 10px;
+}
+.slick .slick-arrow {
+    position: absolute;
+    z-index: 10;
+}
+.slick .slick-arrow.slick-prev {
+    left: 10px;
+}
+.slick .slick-arrow.slick-next {
+    right: 10px;
+}
